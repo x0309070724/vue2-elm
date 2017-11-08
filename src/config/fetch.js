@@ -43,7 +43,7 @@ export default async (url = '', data = {}, type = 'GET', method = 'fetch') => {
     }
 
     try {
-      // console.log(url, requestConfig);
+      console.log(url, requestConfig);
       const response = await fetch(url, requestConfig);
       // console.log(response);
       // 返回一个被解析为JSON格式的promise对象，这可以是任何可以由JSON表示的东西 - 一个object，一个array，一个string，一个number...

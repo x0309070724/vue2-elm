@@ -65,7 +65,7 @@
       //获取热门城市
       hotcity().then(res => {
         this.hotcity = res;
-      })
+      });
 
       //获取所有城市
       groupcity().then(res => {
